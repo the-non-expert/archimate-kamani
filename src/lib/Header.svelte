@@ -4,8 +4,9 @@
 
     const navLinks = [
         { name: "Home", href: "/" },
-        { name: "Services", href: "#services" },
+        { name: "About", href: "/#about" },
         { name: "Portfolio", href: "#portfolio" },
+        { name: "Services", href: "#services" },
         { name: "Contact", href: "#contact" },
     ];
 </script>
@@ -34,7 +35,7 @@
 
         <!-- Desktop Navigation -->
         <nav
-            class="hidden md:flex space-x-8 items-center text-[16px] font-medium"
+            class="hidden md:flex space-x-8 items-center text-xl font-bold"
         >
             {#each navLinks as link}
                 <a

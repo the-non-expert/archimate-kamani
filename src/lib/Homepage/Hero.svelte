@@ -4,22 +4,22 @@
 
     const slides = [
         {
-            image: "/images/slide1.jpg",
-            title: "Designing Dreams",
-            subtext: "From concept to creation — your vision is our blueprint.",
-            button: { text: "Our Process", href: "#process" },
-        },
-        {
             image: "/images/slide2.jpg",
             title: "Structuring the Future",
             subtext: "We blend creativity with construction expertise.",
             button: { text: "Explore Work", href: "#portfolio" },
         },
         {
+            image: "/images/slide1.jpg",
+            title: "Designing Dreams",
+            subtext: "From concept to creation — your vision is our blueprint.",
+            button: { text: "Our Process", href: "#services" },
+        },
+        {
             image: "/images/slide3.jpg",
             title: "Elevating Skylines",
             subtext: "Turning ideas into iconic realities.",
-            button: { text: "Let’s Talk", href: "#contact" },
+            button: { text: "Let's Talk", href: "#contact" },
         },
         {
             image: "/images/slide4.jpg",
@@ -38,7 +38,7 @@
     startCarousel();
 </script>
 
-<section class="relative min-h-[70vh] w-full overflow-hidden">
+<section class="relative min-h-[90vh] w-full overflow-hidden">
     {#each slides as slide, i}
         <div
             class={`absolute inset-0 w-full h-full transition-opacity duration-1000 bg-cover bg-center ${
